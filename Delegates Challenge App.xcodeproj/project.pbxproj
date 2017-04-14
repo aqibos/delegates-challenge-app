@@ -12,6 +12,9 @@
 		1851B60B1EA020200007F345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851B6091EA020200007F345 /* Main.storyboard */; };
 		1851B60D1EA020200007F345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1851B60C1EA020200007F345 /* Assets.xcassets */; };
 		1851B6101EA020200007F345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1851B60E1EA020200007F345 /* LaunchScreen.storyboard */; };
+		18AA20101EA0235600C5247A /* ZipCodeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA200F1EA0235600C5247A /* ZipCodeTextFieldDelegate.swift */; };
+		18AA20121EA0236A00C5247A /* CurrencyTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA20111EA0236A00C5247A /* CurrencyTextFieldDelegate.swift */; };
+		18AA20141EA0237D00C5247A /* TogglableTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA20131EA0237D00C5247A /* TogglableTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		1851B60C1EA020200007F345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1851B60F1EA020200007F345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1851B6111EA020200007F345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AA200F1EA0235600C5247A /* ZipCodeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipCodeTextFieldDelegate.swift; sourceTree = "<group>"; };
+		18AA20111EA0236A00C5247A /* CurrencyTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyTextFieldDelegate.swift; sourceTree = "<group>"; };
+		18AA20131EA0237D00C5247A /* TogglableTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TogglableTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				1851B6051EA020200007F345 /* AppDelegate.swift */,
 				1851B6071EA020200007F345 /* ViewController.swift */,
+				18AA200F1EA0235600C5247A /* ZipCodeTextFieldDelegate.swift */,
+				18AA20111EA0236A00C5247A /* CurrencyTextFieldDelegate.swift */,
+				18AA20131EA0237D00C5247A /* TogglableTextFieldDelegate.swift */,
 				1851B6091EA020200007F345 /* Main.storyboard */,
 				1851B60C1EA020200007F345 /* Assets.xcassets */,
 				1851B60E1EA020200007F345 /* LaunchScreen.storyboard */,
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1851B6081EA020200007F345 /* ViewController.swift in Sources */,
+				18AA20121EA0236A00C5247A /* CurrencyTextFieldDelegate.swift in Sources */,
+				18AA20101EA0235600C5247A /* ZipCodeTextFieldDelegate.swift in Sources */,
+				18AA20141EA0237D00C5247A /* TogglableTextFieldDelegate.swift in Sources */,
 				1851B6061EA020200007F345 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +314,7 @@
 				1851B6161EA020200007F345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
